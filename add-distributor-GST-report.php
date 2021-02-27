@@ -1,17 +1,17 @@
 <?php
-	ob_start();
-	error_reporting(0);
-	session_start();
-	$company_id=$_SESSION['company_id'];
-	$admin_id = $_SESSION["admin_id"];
-	if(!isset($_SESSION["admin_id"]))
-	{
-		header('location:../logout.php');
-	}
-	date_default_timezone_set('Asia/Calcutta');
-	$da = date("Y-m-d");
-	$ti = date("h:i:s");
-	$date_time=$da." ".$ti;
+	// ob_start();
+	// error_reporting(0);
+	// session_start();
+	// $company_id=$_SESSION['company_id'];
+	// $admin_id = $_SESSION["admin_id"];
+	// if(!isset($_SESSION["admin_id"]))
+	// {
+	// 	header('location:../logout.php');
+	// }
+	// date_default_timezone_set('Asia/Calcutta');
+	// $da = date("Y-m-d");
+	// $ti = date("h:i:s");
+	// $date_time=$da." ".$ti;
 ?>
 <!DOCTYPE html>
 <html>
